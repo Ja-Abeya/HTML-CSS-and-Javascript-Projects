@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsights - Tech News and Reviews</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4285F4;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #1A73E8;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .article {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>TechInsights</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Latest Articles</h2>
+
+        <div class="article">
+            <h3>Introducing the Latest Smartphone</h3>
+            <p>Check out the features and specifications of the newest smartphone on the market.</p>
+        </div>
+
+        <div class="article">
+            <h3>The Future of Artificial Intelligence</h3>
+            <p>Explore how AI is shaping the future and its impact on various industries.</p>
+        </div>
+
+        <div class="article">
+            <h3>Top Tech Gadgets for 2022</h3>
+            <p>Discover the must-have gadgets that are gaining popularity this year.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2022 TechInsights
+    </footer>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsights - About Us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4285F4;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #1A73E8;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .about-content {
+            text-align: left;
+        }
+
+        .about-content p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>TechInsights</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+
+        <div class="about-content">
+            <p>Welcome to TechInsights, your go-to source for the latest tech news and reviews. We're dedicated to providing
+                you with insightful articles about the ever-evolving world of technology.</p>
+            <p>Our team of tech enthusiasts is passionate about sharing knowledge and keeping you informed about the
+                innovations that shape our future.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2022 TechInsights
+    </footer>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechInsights - Contact</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #4285F4;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #1A73E8;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>TechInsights</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Contact Us</h2>
+
+        <
+
