@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #A0522D;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #8B4513;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .menu-item {
+            border: 1px solid #8B4513;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Café Delight</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Our Menu</h2>
+
+        <div class="menu-item">
+            <h3>Coffee</h3>
+            <p>Enjoy our rich and aromatic coffee made from the finest beans.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Pastry Delights</h3>
+            <p>Savor our delightful pastries that will satisfy your sweet cravings.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Breakfast Specials</h3>
+            <p>Start your day right with our delicious breakfast specials.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2022 Café Delight
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - Menu</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #A0522D;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #8B4513;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .menu-item {
+            border: 1px solid #8B4513;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Café Delight</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Our Menu</h2>
+
+        <div class="menu-item">
+            <h3>Coffee</h3>
+            <p>Enjoy our rich and aromatic coffee made from the finest beans.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Pastry Delights</h3>
+            <p>Savor our delightful pastries that will satisfy your sweet cravings.</p>
+        </div>
+
+        <div class="menu-item">
+            <h3>Breakfast Specials</h3>
+            <p>Start your day right with our delicious breakfast specials.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2022 Café Delight
+    </footer>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - Contact</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #A0522D;
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav {
+            background-color: #8B4513;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Café Delight</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Contact Us</h2>
+
+        <div class="contact-info">
+            <p><strong>Location:</strong> 123 Coffee Street, Cityville</p>
+            <p><strong>Email:</strong> info@cafedelight.com</p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2022 Café Delight
+    </footer>
+</body>
+
+</html>
