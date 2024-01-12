@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payzen - Your Banking Solution</title>
+    <style>
+        body {
+            background-color: #007BFF; /* Blue background color */
+            color: #ffffff; /* White text color */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Sparkles and Stars Animation */
+        .sparkles {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background-color: #C0C0C0; /* Silver color for sparkles */
+            box-shadow: 20px 20px 20px rgba(192, 192, 192, 0.5);
+            animation: sparkleAnimation 3s infinite;
+        }
+
+        .stars {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background-color: #C0C0C0; /* Silver color for stars */
+            box-shadow: 0 0 10px rgba(192, 192, 192, 0.5);
+            animation: starsAnimation 3s infinite;
+        }
+
+        @keyframes sparkleAnimation {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+        }
+
+        @keyframes starsAnimation {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            100% {
+                transform: translateY(-100vh) rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sparkles" style="top: 10vh; left: 5vw;"></div>
+    <div class="sparkles" style="top: 20vh; left: 20vw;"></div>
+    <div class="sparkles" style="top: 30vh; left: 50vw;"></div>
+    <div class="sparkles" style="top: 40vh; left: 80vw;"></div>
+
+    <div class="stars" style="top: 15vh; left: 30vw;"></div>
+    <div class="stars" style="top: 25vh; left: 60vw;"></div>
+    <div class="stars" style="top: 35vh; left: 10vw;"></div>
+    <div class="stars" style="top: 45vh; left: 40vw;"></div>
+
+    <h1>Welcome to Payzen</h1>
+    <p>Your Trusted Banking Solution</p>
+
+    <button onclick="showMessage()">Click me!</button>
+
+    <script>
+        function showMessage() {
+            alert("Hello from Payzen! This is just a simple example, but you can add more interactive features using JavaScript.");
+        }
+    </script>
+</body>
+
+</html>
